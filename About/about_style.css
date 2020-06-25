@@ -30,7 +30,7 @@ body{
 main{
     flex-grow: 1;
 }
-.home{
+.about-me{
     display: flex;
     flex-flow: row;
     margin-top: var(--mu-01);
