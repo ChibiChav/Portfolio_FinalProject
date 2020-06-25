@@ -25,6 +25,7 @@ body{
     --pd-02: 600px;
 
     --rd-01: 16px;
+    --rd-02: 50%;
 }
 main{
     flex-grow: 1;
@@ -48,49 +49,12 @@ main{
     margin-right: auto;
     padding: 30px;
 
-    width: 30%;
-    height: 500px;
+    width: 50%;
+    height: var(--pd-02);
 
     border-style: solid;
     border-radius: var(--rd-01);
     border-color: var(--rc-03);
-}
-.projects{
-    background-color: var(--bg-02);
-
-    display: flex;
-    flex-flow: column;
-
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-
-    width: 30%;
-    height: var(--pd-01);
-
-    border-style: solid;
-    border-radius: var(--rd-01);
-    border-color: var(--rc-03);    
-}
-.works{
-    background-color: var(--bg-02);
-
-    display: flex;
-    flex-flow: column;
-
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-
-    width: 30%;
-    height: 500px;
-
-    border-style: solid;
-    border-radius: var(--rd-01);
-    border-color: var(--rc-03);  
-}
-.info{
-    background-color: var(--bg-01);
 }
 .header-title{
     margin: var(--mu-02);
@@ -103,17 +67,34 @@ main{
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-style: solid;
+    border-radius: var(--rd-02);
+    border-color: var(--rc-03);
 }
-.link{
-    margin: var(--mu-02);
+.me-info{
+    margin: auto;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.info{
+    background-color: var(--bg-01);
+}
 #footer{
     padding: var(--mu-02);
+}
+.page-index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+
+    list-style: none;
 }
