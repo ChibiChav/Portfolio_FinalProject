@@ -43,6 +43,19 @@ main{
     padding-top: var(--pd-03);
     padding-bottom: var(--pd-03);
 }
+.project-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: var(--mu-03);
+    margin-right: var(--mu-03);
+    margin-bottom: var(--mu-01);
+    padding: var(--pd-04);
+
+    background-color: var(--bg-02);
+    margin-top: (var(--mu-02));
+}
 .piece-section{
     display: flex;
     align-items: center;
@@ -55,6 +68,9 @@ main{
 
     background-color: var(--bg-02);
     margin-top: (var(--mu-02));
+}
+.project-text{
+    display: flex;
 }
 .images{
     margin: auto;
@@ -72,7 +88,7 @@ main{
 }
 .page-index{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: var(--bg-02);
 

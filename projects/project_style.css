@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(webb-dark.png);
+    color: black;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+:root{
+    --bg-01: #e5c78e;
+    --bg-02: #6b7a7c;
+    --rc-03: #ffe39d;
+    --fg: #000;
+    --hl: #91dcd8;
+    --danger: red;
+
+    --mu-01: 80px;
+    --mu-02: 32px;
+    --mu-03: 220px;
+    
+    --pd-01: 500px;
+    --pd-02: 600px;
+    --pd-03: 80px;
+    --pd-04: 72px;
+    --pd-05: 32px;
+
+    --rd-01: 16px;
+    --rd-02: 50%;
+}
+main{
+    flex-grow: 1;
+}
+.home{
+    display: flex;
+    flex-flow: row;
+    margin-top: var(--mu-01);
+}
+.home-header{
+    background-color: var(--bg-01);
+    padding: 40px;
+}
+.about{
+    background-color: var(--bg-02);
+
+    display: flex;
+    flex-flow: column;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+    width: 30%;
+    height: 500px;
+
+    border-style: solid;
+    border-radius: var(--rd-01);
+    border-color: var(--rc-03);
+}
+.projects{
+    background-color: var(--bg-02);
+
+    display: flex;
+    flex-flow: column;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+    width: 30%;
+    height: var(--pd-01);
+
+    border-style: solid;
+    border-radius: var(--rd-01);
+    border-color: var(--rc-03);    
+}
+.works{
+    background-color: var(--bg-02);
+
+    display: flex;
+    flex-flow: column;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+    width: 30%;
+    height: 500px;
+
+    border-style: solid;
+    border-radius: var(--rd-01);
+    border-color: var(--rc-03);  
+}
+.info{
+    background-color: var(--bg-01);
+}
+.header-title{
+    margin: var(--mu-02);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    margin: var(--mu-02);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-02);
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: var(--mu-03);
+
+    padding: var(--pd-05);
+
+    list-style: none;
+}
+#footer{
+    padding: var(--mu-02);
+}
